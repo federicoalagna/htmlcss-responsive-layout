@@ -9,20 +9,59 @@ header {
   height: 80px;
 }
 
+.row {
+}
+
+.container {
+  padding: 30px 30px 30px 30px;
+}
+.col {
+  width: 80%;
+  margin: 0 auto;
+}
 .card {
   background-color: #b5ddff;
   height: 400px;
-  width: 80%;
+
   margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px;
   border-radius: 20px;
 }
 
-.card-large {
+.card-purple {
   background-color: #b5ddff;
-  height: 700px;
-  width: 80%;
+  height: 400px;
+
   margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px;
   border-radius: 20px;
+}
+
+/* UTILITY */
+.mrg20 {
+  margin: 20px;
+}
+
+.mrg40 {
+  margin: 40px;
+}
+
+.mrg-top20 {
+  margin-top: 20px;
+}
+
+.mrg-top40 {
+  margin-top: 40px;
+}
+
+.mrg-bottom20 {
+  margin-bottom: 20px;
+}
+
+.mrg-bottom40 {
+  margin-bottom: 40px;
+}
+
+.bg-purple {
+  background-color: #9792e4;
 }
