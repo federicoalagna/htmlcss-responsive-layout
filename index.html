@@ -5,32 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!-- HEADER -->
     <header>
-      <div class="container"></div>
+      <div class="container flex between center padd">
+        <div class="logo">
+          <img src="img/logo.png" alt="logoa" />
+        </div>
+        <div class="menu">
+          <div class="hamburger">
+            <i class="fa-solid fa-bars large white"></i>
+          </div>
+
+          <ul class="text-none padd white inline only-mb-tb">
+            <li class="py5">Planning</li>
+            <li class="py5">Testimonials</li>
+            <li class="py5">Features</li>
+            <li class="py5">About Us</li>
+            <button>Get Started</button>
+          </ul>
+        </div>
+      </div>
     </header>
+    <!-- //HEADER -->
+
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card mrg-bottom40"></div>
+      <!-- JUMBOTRON -->
+      <section id="jumbo">
+        <div class="container">
+          <div class="row">
+            <div class="col col-large"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
           </div>
         </div>
-      </div>
+      </section>
+      <section id="planning"></section>
+      <section id="partners"></section>
+      <section id="partners"></section>
+      <section id="about"></section>
     </main>
 
-    <div class="container bg-purple">
-      <div class="row">
-        <div class="col">
-          <div class="card-purple"></div>
-          <div class="card-purple"></div>
-        </div>
-      </div>
-    </div>
+    <div class="footer"></div>
   </body>
 </html>
