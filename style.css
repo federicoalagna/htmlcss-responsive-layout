@@ -92,6 +92,14 @@ button {
   justify-content: center;
 }
 
+.top-rem {
+  margin-top: 2rem;
+}
+
+.bottom-rem {
+  margin-bottom: 2rem;
+}
+
 .mrg20 {
   margin: 20px;
 }
@@ -120,6 +128,10 @@ button {
   width: 100%;
 }
 
+.sizelarge {
+  font-size: 25px;
+}
+
 .width50 {
   width: 50%;
 }
@@ -128,6 +140,12 @@ button {
   border-radius: 50px;
   background-color: white;
 }
+
+.radius-purple {
+  border-radius: 50px;
+  background-color: #9792e4;
+}
+
 .large {
   font-size: 30px;
 }
@@ -148,8 +166,13 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 .white {
   color: white;
+}
+
+.purple {
+  color: #9792e4;
 }
 
 .phone {
@@ -164,6 +187,10 @@ button {
 
 .weight600 {
   font-weight: 600;
+}
+
+.fontlight {
+  font-size: smaller;
 }
 
 img {
@@ -198,6 +225,12 @@ img {
   display: none;
 }
 
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
 .icon {
   color: #0084fd;
   margin-top: 1rem;
@@ -220,6 +253,11 @@ main section#jumbo {
   margin-top: 30px;
   margin-bottom: 50px;
 }
+
+main section#planning {
+  margin-bottom: 50px;
+}
+
 main section#jumbo .col {
   background-color: #b5ddff;
   margin-bottom: 24px;
@@ -231,6 +269,13 @@ main section#jumbo .col {
   margin: 5rem 0rem 5rem 0rem;
   color: white;
 }
+
+#testimonials .card-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
 /******************** 
 RESPONSIVE
 ********************/
@@ -261,6 +306,19 @@ RESPONSIVE
     width: 50%;
     margin: 0rem 0rem 0rem 0rem;
     justify-content: end;
+  }
+
+  .tb-flex {
+    display: flex;
+  }
+
+  #testimonials .card-image {
+    flex-shrink: 0;
+    margin-right: 2rem;
+  }
+
+  #testimonials .test1 {
+    text-align: left;
   }
 }
 
