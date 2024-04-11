@@ -124,10 +124,30 @@ button {
   width: 50%;
 }
 
+.radius {
+  border-radius: 50px;
+  background-color: white;
+}
 .large {
   font-size: 30px;
 }
 
+.cursive {
+  font-style: oblique;
+  line-height: 1.7;
+  padding: 2rem;
+}
+
+.arrow {
+  background-color: #9792e4;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 2rem auto 0;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 .white {
   color: white;
 }
@@ -144,6 +164,10 @@ button {
 
 .weight600 {
   font-weight: 600;
+}
+
+img {
+  max-width: 100%;
 }
 /* bgcolor */
 
@@ -174,6 +198,20 @@ button {
   display: none;
 }
 
+.icon {
+  color: #0084fd;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.only-desktop {
+  display: none;
+}
+
+.space {
+  line-height: 1.7;
+}
 main section:nth-child(even) {
   background-color: #9792e4;
 }
@@ -188,17 +226,11 @@ main section#jumbo .col {
   border-radius: 20px;
 }
 
-.icon {
-  color: #0084fd;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 4rem;
+#planning .title {
+  font-size: 2rem;
+  margin: 5rem 0rem 5rem 0rem;
+  color: white;
 }
-
-.only-desktop {
-  display: none;
-}
-
 /******************** 
 RESPONSIVE
 ********************/
@@ -250,5 +282,18 @@ RESPONSIVE
   }
   .card50 {
     width: 50%;
+  }
+
+  .container.columns {
+    display: flex;
+  }
+
+  #planning .col {
+    width: calc(50% - 4rem);
+    margin: 0rem 2rem 0rem 2rem;
+  }
+
+  #planning .col:last-child {
+    align-self: flex-end;
   }
 }
