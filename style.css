@@ -29,13 +29,33 @@ button {
   vertical-align: middle;
 }
 
+.bluebutton {
+  border-radius: 15px;
+  background-color: #0084fd;
+  border: none;
+  padding: 5px;
+  vertical-align: middle;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px 30px;
+  font-weight: 700;
+}
+
 .py10 {
   padding: 10px;
 }
 
+.py20 {
+  padding: 20px;
+}
 .spacing {
   word-spacing: 10px;
 }
+
+.margin0 {
+  margin: 0 auto;
+}
+
 .container {
   max-width: 75%;
   margin: 0 auto;
@@ -52,12 +72,24 @@ button {
   display: flex;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .between {
   justify-content: space-between;
 }
 
 .center {
   align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ju-center {
+  justify-content: center;
 }
 
 .mrg20 {
@@ -84,12 +116,34 @@ button {
   margin-bottom: 40px;
 }
 
+.width100 {
+  width: 100%;
+}
+
+.width50 {
+  width: 50%;
+}
+
 .large {
   font-size: 30px;
 }
 
 .white {
   color: white;
+}
+
+.phone {
+  display: block;
+  max-width: 250px;
+  margin: 2rem;
+  width: 50%;
+  margin: 2rem 0rem 0rem 0rem;
+  margin: 0 auto;
+  justify-content: end;
+}
+
+.weight600 {
+  font-weight: 600;
 }
 /* bgcolor */
 
@@ -99,6 +153,16 @@ button {
 
 .bg-white {
   background-color: white;
+}
+
+/* COLORS */
+
+.blue {
+  color: #0084fd;
+}
+
+.grey {
+  color: rgb(76, 76, 76);
 }
 
 .text-none {
@@ -119,12 +183,16 @@ main section#jumbo {
   margin-bottom: 50px;
 }
 main section#jumbo .col {
-  background-color: #8ac6ff;
+  background-color: #b5ddff;
   margin-bottom: 24px;
+  border-radius: 20px;
 }
 
-section {
-  height: 500px;
+.icon {
+  color: #0084fd;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
 }
 
 .only-desktop {
@@ -153,6 +221,15 @@ RESPONSIVE
   #jumbo .col.col-large {
     width: calc((100% / 3) * 2 - 30px);
   }
+
+  .phone {
+    display: block;
+    max-width: 250px;
+    margin: 2rem;
+    width: 50%;
+    margin: 0rem 0rem 0rem 0rem;
+    justify-content: end;
+  }
 }
 
 /* desktop */
@@ -166,5 +243,12 @@ RESPONSIVE
 
   .only-desktop {
     display: inline;
+  }
+
+  .dsk-flex {
+    display: flex;
+  }
+  .card50 {
+    width: 50%;
   }
 }
