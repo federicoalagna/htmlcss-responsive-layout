@@ -18,6 +18,9 @@ ul {
   line-height: 1;
 }
 
+li {
+  font-weight: lighter;
+}
 button {
   border-radius: 7px;
   background-color: white;
@@ -26,20 +29,20 @@ button {
   vertical-align: middle;
 }
 
-.py5 {
-  padding: 5px;
+.py10 {
+  padding: 10px;
 }
 
 .spacing {
   word-spacing: 10px;
 }
 .container {
-  max-width: 1200px;
+  max-width: 75%;
   margin: 0 auto;
 }
 
 .py2 {
-  padding: 0 2rem;
+  padding: 2rem 0rem;
 }
 
 .padd {
@@ -101,8 +104,6 @@ button {
 .text-none {
   list-style: none;
   display: flex;
-
-  padding: 20px;
 }
 
 .only-mb-tb {
@@ -113,12 +114,45 @@ main section:nth-child(even) {
   background-color: #9792e4;
 }
 
+main section#jumbo {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+main section#jumbo .col {
+  background-color: #8ac6ff;
+  margin-bottom: 24px;
+}
+
+section {
+  height: 500px;
+}
+
+.only-desktop {
+  display: none;
+}
+
 /******************** 
 RESPONSIVE
 ********************/
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  #jumbo .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  #jumbo .col {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% / 3 - 30px);
+  }
+
+  #jumbo .col.col-large {
+    width: calc((100% / 3) * 2 - 30px);
+  }
 }
 
 /* desktop */
@@ -128,5 +162,9 @@ RESPONSIVE
   }
   .only-mb-tb {
     display: flex;
+  }
+
+  .only-desktop {
+    display: inline;
   }
 }
