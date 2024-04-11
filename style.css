@@ -41,6 +41,19 @@ button {
   font-weight: 700;
 }
 
+.purplebutton {
+  border-radius: 15px;
+  background-color: #9792e4;
+  border: none;
+  padding: 5px;
+  vertical-align: middle;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px 30px;
+  font-weight: 700;
+  margin-left: 1.5rem;
+}
+
 .py10 {
   padding: 10px;
 }
@@ -48,6 +61,11 @@ button {
 .py20 {
   padding: 20px;
 }
+
+.pytop20 {
+  padding: 20px;
+}
+
 .spacing {
   word-spacing: 10px;
 }
@@ -56,6 +74,9 @@ button {
   margin: 0 auto;
 }
 
+.margin40 {
+  margin: 40px 0px;
+}
 .container {
   max-width: 75%;
   margin: 0 auto;
@@ -154,6 +175,10 @@ button {
   font-style: oblique;
   line-height: 1.7;
   padding: 2rem;
+}
+
+.size50 {
+  font-size: 50px;
 }
 
 .arrow {
@@ -258,6 +283,9 @@ main section#planning {
   margin-bottom: 50px;
 }
 
+.border-radius20 {
+  border-radius: 20px;
+}
 main section#jumbo .col {
   background-color: #b5ddff;
   margin-bottom: 24px;
@@ -319,6 +347,15 @@ RESPONSIVE
 
   #testimonials .test1 {
     text-align: left;
+  }
+
+  #partners .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #partners .col {
+    width: calc(100% / 3);
   }
 }
 
