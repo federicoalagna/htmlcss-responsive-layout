@@ -54,6 +54,18 @@ button {
   margin-left: 1.5rem;
 }
 
+.purplebutton2 {
+  border-radius: 15px;
+  background-color: #9792e4;
+  border: none;
+  padding: 5px;
+  vertical-align: middle;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px 30px;
+  font-weight: 700;
+}
+
 .py10 {
   padding: 10px;
 }
@@ -256,6 +268,14 @@ img {
   object-fit: cover;
   border-radius: 50%;
 }
+
+.card-image2 {
+  width: 50%;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .icon {
   color: #0084fd;
   margin-top: 1rem;
@@ -304,6 +324,9 @@ main section#jumbo .col {
   overflow: hidden;
 }
 
+.gap {
+  gap: 15px;
+}
 /******************** 
 RESPONSIVE
 ********************/
@@ -354,8 +377,21 @@ RESPONSIVE
     flex-wrap: wrap;
   }
 
+  #about .row {
+    display: flex;
+    gap: 30px;
+  }
+
+  #about .col60 {
+    width: 60%;
+  }
+
+  #about .col40 {
+    width: 40%;
+  }
+
   #partners .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 15px);
   }
 }
 
