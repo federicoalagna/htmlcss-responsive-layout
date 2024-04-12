@@ -66,6 +66,18 @@ button {
   font-weight: 700;
 }
 
+.whitebutton {
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  vertical-align: middle;
+  color: #9792e4;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px 30px;
+  font-weight: 700;
+}
+
 .py10 {
   padding: 10px;
 }
@@ -157,6 +169,10 @@ button {
   margin-bottom: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 .width100 {
   width: 100%;
 }
@@ -212,6 +228,10 @@ button {
   color: #9792e4;
 }
 
+.yellow {
+  color: rgb(255, 222, 4);
+}
+
 .phone {
   display: block;
   max-width: 250px;
@@ -243,6 +263,10 @@ img {
   background-color: white;
 }
 
+.bg-black {
+  background-color: #222;
+}
+
 /* COLORS */
 
 .blue {
@@ -260,6 +284,11 @@ img {
 
 .only-mb-tb {
   display: none;
+}
+
+.footer {
+  width: 100%;
+  padding: 1px;
 }
 
 .card-image {
